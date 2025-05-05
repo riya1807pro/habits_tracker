@@ -2,7 +2,7 @@
 
 **A minimal, local-first habit tracker** built with Next.js, TypeScript, and Tailwind CSS — perfect for maintaining consistency and visualizing progress in a sleek black-themed interface.
 
-![Habit Tracker Screenshot](https://your-screenshot-url.com) <!-- Optional -->
+(![preview pic](image-2.png)) <!-- Optional -->
 
 ---
 

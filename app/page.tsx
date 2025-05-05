@@ -141,7 +141,7 @@ const HabitTracker: FC = () => {
           <LineChart
             data={Array.from({ length: 7 }, (_, i) => {
               const date = dayjs().subtract(6 - i, 'day').format('YYYY-MM-DD');
-              const entry: any = { date };
+              const entry: { date: string; [habitName: string]: number | string } = { date };
               habits.forEach(habit => {
                 const d = habit.data.find(h => h.date === date);
                 entry[habit.name] = d ? d.value : 0;
